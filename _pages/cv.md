@@ -9,43 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# [Download Link](../files/pdf/CV_Yilin_Wang.pdf)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+# Education
+- B.S. in Physics, Peking University, 2026 (expected)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Research Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### Radiative Effect of Dust on the Climate of Early Mars
+  - June 2025 - present
+  - Advisor: Professor Robin Wordsworth (Harvard University)
+  - Calculated key radiative parameters for early Mars dust analogs by applying Mie scattering theory, generating look-up tables for radiative transfer models
+  - Integrated custom Mie scattering outputs into the PCM_LBL 1D radiative-convective model to simulate the climatic impact of dust on early Mars
+  - Using the theory of reflectance spectroscopy to determine the reflectance spectra of regolith
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+### Cloud-Resolving Simulation of Precipitation in Planetary Atmospheres
+
+### Stability of Polar Vortices in Planetary Atmospheres
+
+### Planetary Atmospheric Spectra Retrival based on Machine Learning
+
+# Skills
+- Programming Languages
+  - Python
+  - Fortran
+  - C
+- Climate Modeling
+  - System for Atsmospheric Modeling (SAM)
+  - LMDZ Generic PCM
+  - PCM_LBL
+- Utilities
+  - Linux
+  - LaTeX
   
 Talks
 ======
