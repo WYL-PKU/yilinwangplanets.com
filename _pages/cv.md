@@ -33,7 +33,7 @@ redirect_from:
 - Advisor: Professor Robin Wordsworth (Harvard University)
 - Calculated key radiative parameters for early Mars dust analogs by applying Mie scattering theory, generating look-up tables for radiative transfer models
 - Integrated custom Mie scattering outputs into the PCM_LBL 1D radiative-convective model to simulate the climatic impact of dust on early Mars
-- Using the theory of reflectance spectroscopy to determine the reflectance spectra of regolith
+- Using the theory of reflectance spectroscopy to determine the reflectance spectra of planetary regolith
 
 ### Cloud-Resolving Simulation of Precipitation in Planetary Atmospheres
 
