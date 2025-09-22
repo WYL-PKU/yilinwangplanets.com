@@ -55,6 +55,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: 'master'
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
