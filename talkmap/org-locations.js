@@ -10,8 +10,8 @@ var addressPoints = [
     118.8647048
   ],
   [
-    "Test workflow functioning<br />; Harvard University, Cambridge, MA, US",
-    42.3657432,
-    -71.1222139
+    "Test workflow functioning<br />Caltech; Pasadena, CA, US",
+    34.1476507,
+    -118.144155
   ]
 ];
