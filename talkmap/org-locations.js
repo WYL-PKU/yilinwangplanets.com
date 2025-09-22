@@ -8,10 +8,5 @@ var addressPoints = [
     "2024 National Conferennce in Planetary Sciences<br />Nanjing; \u6c5f\u82cf\u7701\u5357\u4eac\u5e02",
     31.3404301,
     118.8647048
-  ],
-  [
-    "Test workflow functioning<br />Caltech; Pasadena, CA, US",
-    34.1476507,
-    -118.144155
   ]
 ];
