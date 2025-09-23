@@ -35,17 +35,12 @@ jobs:
       - name: Run Jupyter Notebook to generate map data
         run: jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
       
-      - name: Create artifact directory
-        run: mkdir -p _artifacts/talkmap
-
-      - name: Move generated files to artifact directory
-        run: mv talkmap_out.ipynb talkmap/org-locations.js _artifacts/talkmap/
-
+      # 上面运行notebook的步骤保留，下面改为：
       - name: Upload map data as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: map-data
-          path: _artifacts
+          path: talkmap/  # <-- 直接上传 talkmap 文件夹里的内容
 
   # Job 2: Build and deploy the Jekyll site, using the artifact from Job 1
   deploy:
@@ -59,13 +54,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 上面 checkout 的步骤保留，下面改为：
       - name: Download map data artifact
         uses: actions/download-artifact@v4
         with:
           name: map-data
-
-      - name: Restore map data to correct location
-        run: mv talkmap/* talkmap/
+          path: talkmap/ # <-- 直接下载并覆盖到 talkmap 文件夹
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
