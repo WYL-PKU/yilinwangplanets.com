@@ -1,0 +1,6 @@
+jupyter
+pandas
+requests
+beautifulsoup4
+geopy
+getorg
