@@ -1,6 +1,10 @@
 # FINAL WORKFLOW: Scrapes data as an artifact, then deploys. No push-back to master.
 name: Build and Deploy Site with Talk Map
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 on:
   push:
     branches: ["master"]
