@@ -1,4 +1,4 @@
-# A single workflow to first scrape talk data, then build and deploy the Jekyll site
+# FINAL WORKFLOW: Scrapes data as an artifact, then deploys. No push-back to master.
 name: Build and Deploy Site with Talk Map
 
 on:
@@ -7,15 +7,13 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # Needs write permission for the scrape job to push changes
+  contents: read # Read permission is enough for checkout
   pages: write
   id-token: write
 
 jobs:
-  # Job 1: Scrape talk locations first
+  # Job 1: Scrape talk locations and save data as an artifact
   scrape:
-    # This job will not run if the push was made by our bot, to prevent loops
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -25,28 +23,29 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+          cache: 'pip'
 
       - name: Install Python dependencies
-        run: |
-          pip install jupyter pandas requests beautifulsoup4 geopy
-          pip install getorg --upgrade
+        run: pip install -r requirements.txt
 
       - name: Run Jupyter Notebook to generate map data
         run: jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
+      
+      - name: Create artifact directory
+        run: mkdir -p _artifacts/talkmap
 
-      - name: Commit and push updated map data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Stage all changes, including new/deleted files
-          git add -A
-          # Commit only if there are changes, otherwise echo a message
-          git diff --quiet && git diff --staged --quiet || git commit -m "Automated update of talk locations"
-          git push
+      - name: Move generated files to artifact directory
+        run: mv talkmap_out.ipynb talkmap/org-locations.js _artifacts/talkmap/
 
-  # Job 2: Build and deploy the Jekyll site
+      - name: Upload map data as an artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: map-data
+          path: _artifacts
+
+  # Job 2: Build and deploy the Jekyll site, using the artifact from Job 1
   deploy:
-    # This job will only start after the 'scrape' job has successfully completed
+    # This job must wait for the scrape job to complete
     needs: scrape
     environment:
       name: github-pages
@@ -55,14 +54,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Download map data artifact
+        uses: actions/download-artifact@v4
         with:
-          ref: 'master'
+          name: map-data
+
+      - name: Restore map data to correct location
+        run: mv talkmap/* talkmap/
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true # Runs 'bundle install' and caches gems
+          bundler-cache: true
 
       - name: Setup Pages
         id: pages
@@ -73,7 +78,7 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Upload artifact
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
 
       - name: Deploy to GitHub Pages

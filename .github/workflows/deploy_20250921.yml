@@ -1,0 +1,81 @@
+# A single workflow to first scrape talk data, then build and deploy the Jekyll site
+name: Build and Deploy Site with Talk Map
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: write # Needs write permission for the scrape job to push changes
+  pages: write
+  id-token: write
+
+jobs:
+  # Job 1: Scrape talk locations first
+  scrape:
+    # This job will not run if the push was made by our bot, to prevent loops
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Python dependencies
+        run: |
+          pip install jupyter pandas requests beautifulsoup4 geopy
+          pip install getorg --upgrade
+
+      - name: Run Jupyter Notebook to generate map data
+        run: jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
+
+      - name: Commit and push updated map data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Stage all changes, including new/deleted files
+          git add -A
+          # Commit only if there are changes, otherwise echo a message
+          git diff --quiet && git diff --staged --quiet || git commit -m "Automated update of talk locations"
+          git push
+
+  # Job 2: Build and deploy the Jekyll site
+  deploy:
+    # This job will only start after the 'scrape' job has successfully completed
+    needs: scrape
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: 'master'
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true # Runs 'bundle install' and caches gems
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
