@@ -39,13 +39,17 @@
         {% endif %}
       </h3>
 
-      {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-
-{% if post.advisor %}
-<p class="page__meta"><i class="fa fa-user" aria-hidden="true"></i> Advisor:
-    {{ post.advisor}}
+      {% if post.start_date %}
+  <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> 
+    {{ post.start_date | date: '%B %Y' }} - 
+    {% if post.end_date %}
+      {{ post.end_date | date: '%B %Y' }}
+    {% else %}
+      present
+    {% endif %}
   </p>
 {% endif %}
+
       {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</p>{% endif %}
 
       {% comment %} --- This is our new logic for displaying highlights --- {% endcomment %}

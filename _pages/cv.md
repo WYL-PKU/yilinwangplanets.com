@@ -27,22 +27,6 @@ redirect_from:
 
 ---
 
-### Radiative Effect of Dust on the Climate of Early Mars
-
-- June 2025 - present
-- Advisor: Professor Robin Wordsworth (Harvard University)
-- Calculated key radiative parameters for early Mars dust analogs by applying Mie scattering theory, generating look-up tables for radiative transfer models
-- Integrated custom Mie scattering outputs into the PCM_LBL 1D radiative-convective model to simulate the climatic impact of dust on early Mars
-- Using the theory of reflectance spectroscopy to determine the reflectance spectra of planetary regolith
-
-### Cloud-Resolving Simulation of Precipitation in Planetary Atmospheres
-
-### Stability of Polar Vortices in Planetary Atmospheres
-
-### Planetary Atmospheric Spectra Retrival based on Machine Learning
-
----
-
 ## Talks
 
   <ul>{% for post in site.talks reversed %}
@@ -54,7 +38,7 @@ redirect_from:
 ## Teaching
 
   <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-teaching-cv.html %}
   {% endfor %}</ul>
 
 ---
@@ -77,9 +61,9 @@ redirect_from:
   - Fortran
   - C
 - Climate Modeling
-  - System for Atsmospheric Modeling (SAM)
-  - LMDZ Generic PCM
-  - PCM_LBL
+  - [System for Atsmospheric Modeling (SAM)](http://rossby.msrc.sunysb.edu/SAM.html)
+  - [LMDZ Generic PCM](https://lmdz-forge.lmd.jussieu.fr/mediawiki/Planets/index.php/Overview_of_the_Generic_PCM)
+  - [PCM_LBL](https://github.com/wordsworthgroup/mars_redox_2021/tree/main/PCM_LBL)
 - Utilities
   - Linux
   - LaTeX
