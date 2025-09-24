@@ -45,7 +45,7 @@ redirect_from:
 
 ## Awards & Honors
 
-- Outstanding Student Presentation Award in the 2024 National Conference in Planetary Science
+- Outstanding Student Presentation Award in the 2024 National Conference in Planetary Sciences
 - Third Prize in 2024 Lin-Bridge Exoplanet Symposium
 - May 4th Scholarship of Peking University (Top 3% among 260 students, 2023)
 - Merit Student Pacesetter of Peking University (2023)

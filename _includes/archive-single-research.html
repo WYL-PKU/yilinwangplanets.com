@@ -1,5 +1,6 @@
 {% include base_path %}
 
+{% comment %} --- Variable Assignments --- {% endcomment %}
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -12,31 +13,33 @@
   {% assign title = post.title %}
 {% endif %}
 
+
+{% comment %} --- HTML Structure --- {% endcomment %}
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
+    <li> {% comment %} Crucial <li> tag to match the working default template structure {% endcomment %}
 
-{% if post.start_date %}
+      {% if include.type == "grid" and teaser %}
+        <div class="archive__item-teaser">
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="">
+        </div>
+      {% endif %}
+
+      <h3 class="archive__item-title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h3>
+
+      {% if post.start_date %}
   <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> 
     {{ post.start_date | date: '%B %Y' }} - 
     {% if post.end_date %}
@@ -47,7 +50,24 @@
   </p>
 {% endif %}
 
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+{% if post.advisor %}
+<p class="page__meta"><i class="fa fa-user" aria-hidden="true"></i> Advisor:
+    {{ post.advisor}}
+  </p>
+{% endif %}
+      {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</p>{% endif %}
+
+      {% comment %} --- This is our new logic for displaying highlights --- {% endcomment %}
+      {% if post.highlights %}
+        <ul class="archive__item-excerpt" itemprop="description" style="margin-top: 0.5em; padding-left: 1.2em;">
+        {% for item in post.highlights %}
+          <li style="margin-bottom: 0.25em;">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+        </ul>
+      {% elsif post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
+
+    </li> {% comment %} Closing the crucial <li> tag {% endcomment %}
   </article>
 </div>

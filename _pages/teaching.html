@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+<div style="padding-left: 3em;">
+  {% for post in site.teaching reversed %}
   {% include archive-single-teaching.html %}
 {% endfor %}
+</div>
+

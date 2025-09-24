@@ -10,10 +10,13 @@ start_date: 2025-06-25
 location: Cambridge, MA, US
 advisor: Robin Wordsworth
 highlights:
-    - highlight 1
-    - highlight 2
+    - Calculated key radiative parameters for early Mars dust analogs by applying Mie scattering theory, generating look-up tables for radiative transfer models
+    - Integrated custom Mie scattering outputs into the PCM_LBL 1D radiative-convective model to simulate the climatic impact of dust on early Mars
+    - Using the theory of reflectance spectroscopy to determine the reflectance spectra of regolith
 #excerpt: "this is the excerpt"
 share: false
 ---
 
-Here is the main text.
+- Calculated key radiative parameters for early Mars dust analogs by applying Mie scattering theory, generating look-up tables for radiative transfer models
+- Integrated custom Mie scattering outputs into the PCM_LBL 1D radiative-convective model to simulate the climatic impact of dust on early Mars
+- Using the theory of reflectance spectroscopy to determine the reflectance spectra of regolith
