@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Lin Qiao Symposium<br />SYSU, Zhuhai, China; \u5e7f\u4e1c\u7701\u73e0\u6d77\u5e02\u4e2d\u5c71\u5927\u5b66",
+    "2024 Lin-Bridge Exoplanet Symposium<br />SYSU, Zhuhai, China; \u5e7f\u4e1c\u7701\u73e0\u6d77\u5e02\u4e2d\u5c71\u5927\u5b66",
     22.3461238,
     113.5875859
   ],

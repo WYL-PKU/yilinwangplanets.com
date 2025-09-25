@@ -149,7 +149,16 @@
   }
 }
 
-.author__bio {
+.author__bio1 {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+.author__bio2 {
   margin: 0;
 
   @include breakpoint($large) {

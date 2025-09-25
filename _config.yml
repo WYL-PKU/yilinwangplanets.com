@@ -26,10 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Yilin Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Senior Undergraduate at Peking University, Visiting Research Assistant at Harvard University."
-  location         : "Cambridge, MA"
-  employer         : "Peking University"
-  uri              : "https://yilinwangplanets.com"
+  bio1              : "Senior Undergraduate <br>@ Peking University"
+  bio2              : "Visiting Undergraduate Researcher <br>@ Harvard University"
+  location         : "Cambridge, MA, US"
+  # employer         : "Peking University, Harvard University"
+  uri              : #"https://yilinwangplanets.com"
   email            : "yilin_wang@seas.harvard.edu" 
 
   # Academic websites
