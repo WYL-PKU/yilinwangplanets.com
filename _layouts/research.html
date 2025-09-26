@@ -53,6 +53,8 @@ layout: default
   </p>
 {% endif %}
 
+{% if page.venue %}<p class="archive__item-excerpt" itemprop="description">{{page.type}}, {{ page.venue }},  {{page.location}}</p>{% endif %}
+
         {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
 
         </header>
