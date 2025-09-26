@@ -35,6 +35,24 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+
+{% if page.start_date %}
+  <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> 
+    {{ page.start_date | date: '%B %Y' }} - 
+    {% if page.end_date %}
+      {{ page.end_date | date: '%B %Y' }}
+    {% else %}
+      present
+    {% endif %}
+  </p>
+{% endif %}
+
+{% if page.advisor %}
+<p class="page__meta"><i class="fa fa-user" aria-hidden="true"></i> Advisor:
+    {{ page.advisor}}
+  </p>
+{% endif %}
+
         {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
 
         </header>
