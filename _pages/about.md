@@ -15,6 +15,6 @@ My research interests include:
 - The physical principles that govern planetary climates and their long-term evolution, which I explore using theoretical and numerical models.
 - The conditions that lead to planetary habitability and the potential origins of life, both within our Solar System and on exoplanets.
 
-I am now working with [Professor Robin Wordsworth](http://people.seas.harvard.edu/~rwordsworth) on the radiative effect of dust on the climate of early Mars.
+I am now working with [Professor Robin Wordsworth](http://people.seas.harvard.edu/~rwordsworth) on the radiative effect of dust on the climate of early Mars (with potential implication on the characterization of exoplanets as well!).
 
 For more details on my academic background and projects, please see the navigation bar above.
