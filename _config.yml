@@ -249,6 +249,7 @@ defaults:
       comments: true
       share: false
       related: true
+      mathjax: true
   # _pages
   - scope:
       path: ""
@@ -256,6 +257,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      mathjax: true
   # _teaching
   - scope:
       path: ""
@@ -265,6 +267,7 @@ defaults:
       author_profile: true
       share: false
       comments: true
+      mathjax: true
   # _publications
   - scope:
       path: ""
@@ -274,6 +277,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      mathjax: true
   # _portfolio
   - scope:
       path: ""
@@ -283,6 +287,7 @@ defaults:
       author_profile: true
       share: false
       comment: true
+      mathjax: true
   # _talks
   - scope:
       path: ""
@@ -291,6 +296,7 @@ defaults:
       layout: talk
       author_profile: true
       share: false
+      mathjax: true
   - scope:
       path: ""
       type: research
@@ -298,6 +304,7 @@ defaults:
       layout: research
       author_profile: true
       share: false
+      mathjax: true
 
 
 # Sass/SCSS

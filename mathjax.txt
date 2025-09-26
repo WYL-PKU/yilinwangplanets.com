@@ -1,0 +1,11 @@
+_includes/footer/custom-removetest.html:7:<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+_pages/markdown.md:49:Support for MathJax (version 3.* via [jsDelivr](https://www.jsdelivr.com/), [documentation](https://docs.mathjax.org/en/latest/)) is included in the template:
+_pages/testmath.md:4:mathjax: true
+_publications/2025-06-08-paper-title-number-5.md:13:Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+_research/2025-06-25-EarlyMarsDust.md:18:mathjax: true
+_research/2025-06-25-EarlyMarsDust.md:27:Support for MathJax (version 3.* via [jsDelivr](https://www.jsdelivr.com/), [documentation](https://docs.mathjax.org/en/latest/)) is included in the template:
+_site/markdown/index.html:281:  <li><a href="#mathjax" id="markdown-toc-mathjax">MathJax</a></li>
+_site/markdown/index.html:391:<h2 id="mathjax">MathJax</h2>
+_site/markdown/index.html:393:<p>Support for MathJax (version 3.* via <a href="https://www.jsdelivr.com/">jsDelivr</a>, <a href="https://docs.mathjax.org/en/latest/">documentation</a>) is included in the template:</p>
+_site/publication/2024-02-17-paper-title-number-4.html:281:        <p>Using <a href="https://www.mathjax.org/">MathJax</a> in the description is supported - \(E=mc^2\) - however, the use must be mindful that the default delimiters are <code class="language-plaintext highlighter-rouge">$$...$$</code> and <code class="language-plaintext highlighter-rouge">\\[...\\]</code> which differs from the <code class="language-plaintext highlighter-rouge">$...$</code> that is typically expected.</p>
+_site/research/earlymarsdust.html:287:<p>Support for MathJax (version 3.* via <a href="https://www.jsdelivr.com/">jsDelivr</a>, <a href="https://docs.mathjax.org/en/latest/">documentation</a>) is included in the template:</p>

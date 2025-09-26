@@ -1,0 +1,184 @@
+images/manifest.json:5:			"src": "/images/favicon-192x192.png",
+images/manifest.json:10:			"src": "/images/favicon-512x512.png",
+_includes/head/custom.html:8:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_includes/head/custom.html:10:<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
+_includes/head/custom.html:11:<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+_includes/head/custom.html:12:<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+_includes/head/custom.html:14:<link rel="icon" href="/images/favicon.ico"/>
+_site/404.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/404.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/404.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/404.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/404.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/archive-layout-with-content/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/archive-layout-with-content/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/archive-layout-with-content/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/archive-layout-with-content/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/archive-layout-with-content/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/categories/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/categories/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/categories/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/categories/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/categories/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/collection-archive/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/collection-archive/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/collection-archive/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/collection-archive/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/collection-archive/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/cv/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/cv/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/cv/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/cv/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/cv/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/images/manifest.json:5:			"src": "/images/favicon-192x192.png",
+_site/images/manifest.json:10:			"src": "/images/favicon-512x512.png",
+_site/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/non-menu-page/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/non-menu-page/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/non-menu-page/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/non-menu-page/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/non-menu-page/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/page-archive/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/page-archive/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/page-archive/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/page-archive/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/page-archive/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/portfolio/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/portfolio/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/portfolio/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/portfolio/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/portfolio/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/portfolio/portfolio-1/index.html:105:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/portfolio/portfolio-1/index.html:107:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/portfolio/portfolio-1/index.html:108:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/portfolio/portfolio-1/index.html:109:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/portfolio/portfolio-1/index.html:111:<link rel="icon" href="/images/favicon.ico"/>
+_site/portfolio/portfolio-2/index.html:105:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/portfolio/portfolio-2/index.html:107:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/portfolio/portfolio-2/index.html:108:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/portfolio/portfolio-2/index.html:109:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/portfolio/portfolio-2/index.html:111:<link rel="icon" href="/images/favicon.ico"/>
+_site/posts/2012/08/blog-post-1/index.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/posts/2012/08/blog-post-1/index.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/posts/2012/08/blog-post-1/index.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/posts/2012/08/blog-post-1/index.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/posts/2012/08/blog-post-1/index.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/posts/2012/08/blog-post-4/index.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/posts/2012/08/blog-post-4/index.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/posts/2012/08/blog-post-4/index.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/posts/2012/08/blog-post-4/index.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/posts/2012/08/blog-post-4/index.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/posts/2013/08/blog-post-2/index.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/posts/2013/08/blog-post-2/index.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/posts/2013/08/blog-post-2/index.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/posts/2013/08/blog-post-2/index.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/posts/2013/08/blog-post-2/index.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/posts/2014/08/blog-post-3/index.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/posts/2014/08/blog-post-3/index.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/posts/2014/08/blog-post-3/index.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/posts/2014/08/blog-post-3/index.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/posts/2014/08/blog-post-3/index.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/publication/2009-10-01-paper-title-number-1.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/publication/2009-10-01-paper-title-number-1.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/publication/2009-10-01-paper-title-number-1.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/publication/2009-10-01-paper-title-number-1.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/publication/2009-10-01-paper-title-number-1.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/publication/2010-10-01-paper-title-number-2.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/publication/2010-10-01-paper-title-number-2.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/publication/2010-10-01-paper-title-number-2.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/publication/2010-10-01-paper-title-number-2.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/publication/2010-10-01-paper-title-number-2.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/publication/2015-10-01-paper-title-number-3.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/publication/2015-10-01-paper-title-number-3.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/publication/2015-10-01-paper-title-number-3.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/publication/2015-10-01-paper-title-number-3.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/publication/2015-10-01-paper-title-number-3.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/publication/2024-02-17-paper-title-number-4.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/publication/2024-02-17-paper-title-number-4.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/publication/2024-02-17-paper-title-number-4.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/publication/2024-02-17-paper-title-number-4.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/publication/2024-02-17-paper-title-number-4.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/publications/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/publications/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/publications/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/publications/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/publications/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/research/crmprecipitation.html:105:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/research/crmprecipitation.html:107:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/research/crmprecipitation.html:108:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/research/crmprecipitation.html:109:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/research/crmprecipitation.html:111:<link rel="icon" href="/images/favicon.ico"/>
+_site/research/earlymarsdust.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/research/earlymarsdust.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/research/earlymarsdust.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/research/earlymarsdust.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/research/earlymarsdust.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/research/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/research/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/research/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/research/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/research/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/research/PASRML.html:105:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/research/PASRML.html:107:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/research/PASRML.html:108:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/research/PASRML.html:109:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/research/PASRML.html:111:<link rel="icon" href="/images/favicon.ico"/>
+_site/research/pvs.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/research/pvs.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/research/pvs.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/research/pvs.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/research/pvs.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/sitemap/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/sitemap/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/sitemap/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/sitemap/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/sitemap/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/tags/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/tags/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/tags/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/tags/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/tags/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/talkmap.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/talkmap.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/talkmap.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/talkmap.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/talkmap.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/talks/2024-08-21.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/talks/2024-08-21.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/talks/2024-08-21.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/talks/2024-08-21.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/talks/2024-08-21.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/talks/2024-10-08.html:109:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/talks/2024-10-08.html:111:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/talks/2024-10-08.html:112:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/talks/2024-10-08.html:113:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/talks/2024-10-08.html:115:<link rel="icon" href="/images/favicon.ico"/>
+_site/talks/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/talks/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/talks/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/talks/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/talks/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/teaching/2024-fall-teaching-1.html:105:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/teaching/2024-fall-teaching-1.html:107:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/teaching/2024-fall-teaching-1.html:108:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/teaching/2024-fall-teaching-1.html:109:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/teaching/2024-fall-teaching-1.html:111:<link rel="icon" href="/images/favicon.ico"/>
+_site/teaching/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/teaching/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/teaching/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/teaching/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/teaching/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/terms/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/terms/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/terms/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/terms/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/terms/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
+_site/year-archive/index.html:103:<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+_site/year-archive/index.html:105:<link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
+_site/year-archive/index.html:106:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32"/>
+_site/year-archive/index.html:107:<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-192x192.png" sizes="192x192"/>
+_site/year-archive/index.html:109:<link rel="icon" href="/images/favicon.ico"/>
