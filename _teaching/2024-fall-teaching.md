@@ -13,4 +13,6 @@ highlights:
     - Involved in the design and assessment of the final exam
 ---
 
-TA
+This course is led by Prof. Jun Yang, offered to freshmen students at the School of Earth and Space Sciences, Peking University. The course covers most of the important parts in the field of planetary sciences, including: stars, orbits, space environment, surface, atmosphere and ocean, interior structure, exoplanets and habitability.
+
+I graded weekly assignments, led problem-solving sessions and got involved in the design and assessment of the final exam.
