@@ -19,7 +19,7 @@ mathjax: true
 date: 2025-09-25 # page publish date, not program duration
 ---
 
-## [Report (pdf)](../files/pdf/25summer_report.pdf)
+## [Summer Research Summary Report (pdf)](../files/pdf/25summer_report.pdf)
 
 ### Abstract
 
