@@ -8,13 +8,17 @@ redirect_from:
   - /bio/
 ---
 
-Hi! I am a senior undergraduate student at the School of Physics, Peking University. Since June 2025, I have been working as a visiting undergraduate researcher at School of Engineering and Applied Sciences, Harvard University.
+Hi! I am an incoming Ph.D. student in Geophysics at Stanford University,
+where I will begin working with
+[Professor Da Yang](https://geophysics.stanford.edu/people/da-yang)
+in Fall 2026.
 
-My research interests include:
+My research interests include climate dynamics, atmospheric dynamics, radiative transfer, and planetary climates. I use theoretical analysis and numerical modeling to investigate how atmospheric processes, radiative effects, and orbital forcing shape the climates of Earth and other planets.
 
-- The physical principles that govern planetary climates and their long-term evolution, which I explore using theoretical and numerical models.
-- The conditions that lead to planetary habitability and the potential origins of life, both within our Solar System and on exoplanets.
+My current and recent research includes:
 
-I am now working with [Professor Robin Wordsworth](http://people.seas.harvard.edu/~rwordsworth) on the radiative effect of dust on the climate of early Mars (with potential implication on the characterization of exoplanets as well!).
+* analytical climate responses to variations in orbital eccentricity;
+* gravito-inertial instability and vortex depth in giant-planet atmospheres; and
+* the radiative effects of dust on the climate of early Mars.
 
-For more details on my academic background and projects, please see the navigation bar above.
+Please see the Research and CV pages for more details about my work.

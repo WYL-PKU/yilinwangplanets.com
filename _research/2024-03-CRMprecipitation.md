@@ -14,6 +14,7 @@ highlights:
     - Analyzed the influence of varying solar spectra and surface gravity on precipitation patterns and atmospheric dynamics
 #excerpt: "this is the excerpt"
 share: false
+published: false
 ---
 
 - Utilized the System for Atmospheric Modeling (SAM) to conduct cloud-resolving simulations of diverse planetary atmospheres

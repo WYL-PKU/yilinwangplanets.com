@@ -12,11 +12,11 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Yilin Wang | Homepage"
 title_separator          : "-"
 name                     : &name "Yilin Wang"
-description              : &description "Yilin Wang's Homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
+description : &description "Yilin Wang — incoming Ph.D. student in Geophysics at Stanford University"
 url                      : https://yilinwangplanets.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "WYL-PKU/yilinwangplanets.com"
+repository : "yilinwang-atmos/yilinwangplanets.com"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,12 +26,12 @@ author:
   avatar           : "profile.png"
   name             : "Yilin Wang"
   pronouns         : # example: "she/her"  
-  bio1              : "Senior Undergraduate <br>@ Peking University"
-  bio2              : "Visiting Undergraduate Researcher <br>@ Harvard University"
-  location         : "Cambridge, MA, US"
+  bio1              : "Incoming Ph.D. Student in Geophysics <br>@ Stanford University"
+  bio2              : "B.S. in Physics <br>@ Peking University"
+  location         : 
   # employer         : "Peking University, Harvard University"
   uri              : #"https://yilinwangplanets.com"
-  email            : "yilin.william@gmail.com" 
+  email            : "wyilin@stanford.edu"
 
   # Academic websites
   academia         : # URL
@@ -49,7 +49,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "WYL-PKU"
+  github : "yilinwang-atmos"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
